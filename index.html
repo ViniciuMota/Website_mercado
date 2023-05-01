@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercado</title>
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <h1>Shop Mercado</h1>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                <ul class="nav navbar-nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#inicio">Início</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#produtos">Produtos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#promocoes">Promoções</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <body>
+        <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+            <section id="inicio">
+                <div class="container">
+                    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div data-bs-interval="3000" class="carousel-item active">
+                                <img class="d-block w-100"
+                                    src="./images/onions-1239423_960_720.jpg" />
+                                <div class="carousel-caption">
+                                    <h2>alho e cebola</h2>
+                                </div>
+                            </div>
+                            <div data-bs-interval="3000" class="carousel-item">
+                                <img class="d-block w-100"
+                                    src="./images/oranges-1995056_960_720.jpg" />
+                                <div class="carousel-caption">
+                                    <h2>Laranja</h2>
+                                </div>
+                            </div>
+                            <div data-bs-interval="3000" class="carousel-item">
+                                <img class="d-block w-100"
+                                    src="./images/strawberries-3431122_960_720.jpg" />
+                                <div class="carousel-caption">
+                                    <h2>Morangos</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <button data-bs-target="#carousel" data-bs-slide="prev" class="carousel-control-prev"
+                            type="button">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button data-bs-target="#carousel" data-bs-slide="next" class="carousel-control-next">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel" class="active"
+                                data-bs-slide-to="0"></button>
+                            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="produtos">
+                <h2>Produtos</h2>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                        <article class="card ">
+                            <img src="./images/apples-634572_960_720.jpg" />
+                            <div class="card-body">
+                                <h4 class="card-title">Maça</h4>
+                                <p class="card-text">
+                                    R$ 12.00/Kg
+                                </p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <article class="card">
+                            <img src="./images/fruits-4728754_960_720.jpg" />
+                            <div class="card-body">
+                                <h4 class="card-title">Banana</h4>
+                                <p class="card-text">
+                                    R$ 12.00/Kg
+                                </p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12">
+                        <article class="card">
+                            <img src="./images/grapes-3623694_960_720.jpg" />
+                            <div class="card-body">
+                                <h4 class="card-title">Uva</h4>
+                                <p class="card-text">
+                                    R$ 12.00/Kg
+                                </p>
+                                <a href="#" class="btn btn-primary">Comprar</a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+            </section>
+            <section id="promocoes">
+                <h2>Promoções</h2>
+            </section>
+        </div>
+    </body>
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
